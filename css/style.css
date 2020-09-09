@@ -1,0 +1,447 @@
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url(../fonts/MuseoSansCyrl700.otf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.button_menu {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 40px;
+}
+
+.header .header__nav {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.header .header__nav li {
+  list-style: none;
+  margin-left: 24px;
+}
+
+.header .header__nav li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #504A62;
+}
+
+.second_page {
+  height: 900px;
+  background: url(../img/1920L.png) left no-repeat, url(../img/1920R.png) right no-repeat;
+}
+
+.second_page .cta .mobilelogo {
+  display: none;
+}
+
+.second_page .cta h1 {
+  padding-top: 115px;
+  font-weight: 600;
+  font-size: 40px;
+  color: #504A62;
+  text-align: center;
+  line-height: 52px;
+}
+
+.second_page .cta .cta__buttons {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.second_page .cta .cta__buttons .appstore1920 {
+  margin-right: 35.37px;
+}
+
+.second_page .cta .cta__buttons .appstore1366 {
+  display: none;
+}
+
+.second_page .cta .cta__buttons .appstore1170 {
+  display: none;
+}
+
+.second_page .cta .cta__buttons .appstoremobile {
+  display: none;
+}
+
+.second_page .cta .cta__buttons .playmarket1366 {
+  display: none;
+}
+
+.second_page .cta .cta__buttons .playmarket1170 {
+  display: none;
+}
+
+.second_page .cta .cta__buttons .playmarketmobile {
+  display: none;
+}
+
+.second_page .cta .cta__phone {
+  margin-top: 121px;
+  display: flex;
+  justify-content: center;
+}
+
+.second_page .cta .cta__phone .xs1366 {
+  display: none;
+}
+
+.second_page .cta .cta__phone .xs1170 {
+  display: none;
+}
+
+.second_page .cta .cta__phone .xsmobile {
+  display: none;
+}
+
+@media screen and (max-width: 1366px) {
+  .button_menu {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+  }
+  .header .header__mobilemenu {
+    display: none;
+  }
+  .header .header__nav {
+    display: flex;
+    margin-bottom: 0;
+  }
+  .header .header__nav li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  .header .header__nav li a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #504A62;
+  }
+  .second_page {
+    height: 700px;
+    background: url(../img/1366L.png) left no-repeat, url(../img/1366R.png) right no-repeat;
+  }
+  .second_page .cta .mobilelogo {
+    display: none;
+  }
+  .second_page .cta h1 {
+    padding-top: 89px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #504A62;
+    text-align: center;
+    line-height: 41px;
+  }
+  .second_page .cta .cta__buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .second_page .cta .cta__buttons .appstore1920 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .appstore1366 {
+    display: inline;
+    margin-right: 24.32px;
+  }
+  .second_page .cta .cta__buttons .appstore1170 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .appstoremobile {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .playmarket1920 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .playmarket1366 {
+    display: inline;
+  }
+  .second_page .cta .cta__buttons .playmarket1170 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .playmarketmobile {
+    display: none;
+  }
+  .second_page .cta .cta__phone {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  .second_page .cta .cta__phone .xs1920 {
+    display: none;
+  }
+  .second_page .cta .cta__phone .xs1366 {
+    display: inline;
+  }
+  .second_page .cta .cta__phone .xs1170 {
+    display: none;
+  }
+  .second_page .cta .cta__phone .xsmobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .button_menu {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+  }
+  .header .header__mobilemenu {
+    display: none;
+  }
+  .header .header__nav {
+    display: flex;
+    margin-bottom: 0;
+  }
+  .header .header__nav li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  .header .header__nav li a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #504A62;
+  }
+  .second_page {
+    height: 700px;
+    background: url(../img/1170L.png) left no-repeat, url(../img/1170R.png) right no-repeat;
+  }
+  .second_page .cta .mobilelogo {
+    display: none;
+  }
+  .second_page .cta h1 {
+    padding-top: 89px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #504A62;
+    text-align: center;
+    line-height: 41px;
+  }
+  .second_page .cta .cta__buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .second_page .cta .cta__buttons .appstore1920 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .appstore1366 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .appstore1170 {
+    display: inline;
+    margin-right: 24.32px;
+  }
+  .second_page .cta .cta__buttons .appstoremobile {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .playmarket1920 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .playmarket1366 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .playmarket1170 {
+    display: inline;
+  }
+  .second_page .cta .cta__buttons .playmarketmobile {
+    display: none;
+  }
+  .second_page .cta .cta__phone {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  .second_page .cta .cta__phone .xs1920 {
+    display: none;
+  }
+  .second_page .cta .cta__phone .xs1366 {
+    display: none;
+  }
+  .second_page .cta .cta__phone .xs1170 {
+    display: inline;
+  }
+  .second_page .cta .cta__phone .xsmobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .button_menu {
+    display: block;
+  }
+  .button_menu .button_menu_lines {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: #FF9100;
+    transform: translate(-50%, -50%);
+  }
+  .button_menu .button_menu_lines::after {
+    content: '';
+    top: 6px;
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: #FF9100;
+  }
+  .button_menu .button_menu_lines::before {
+    content: '';
+    top: -6px;
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: #FF9100;
+  }
+  .burger_menu_active .button_menu_lines {
+    background-color: transparent;
+  }
+  .burger_menu_active .button_menu_lines::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .burger_menu_active .button_menu_lines::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  .header .header__nav.show {
+    display: block;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 206px 0 100% 0;
+  }
+  .header .header__nav.show li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+  .header .header__nav.show li a {
+    font-family: "MuseoSansCyrl";
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 36px;
+    color: #050000;
+  }
+  .header__mobilemenu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 38px;
+  }
+  .header__mobilemenu button {
+    background: none;
+    border: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+  }
+  .header .header__logo {
+    display: none;
+  }
+  .header .header__nav {
+    display: none;
+  }
+  .second_page {
+    height: 700px;
+    background: #fff;
+  }
+  .second_page .cta .mobilelogo {
+    display: flex;
+    justify-content: center;
+    padding-top: 46.82px;
+    margin: 0 auto;
+  }
+  .second_page .cta h1 {
+    width: 274px;
+    margin: 0 auto;
+    padding: 33.18px 0 0 0;
+    font-weight: 600;
+    line-height: 31px;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+  }
+  .second_page .cta .cta__buttons {
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+  }
+  .second_page .cta .cta__buttons .appstore1920 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .appstore1366 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .appstore1170 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .appstoremobile {
+    display: inline;
+    margin-right: 24.32px;
+  }
+  .second_page .cta .cta__buttons .playmarket1920 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .playmarket1366 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .playmarket1170 {
+    display: none;
+  }
+  .second_page .cta .cta__buttons .playmarketmobile {
+    display: inline;
+  }
+  .second_page .cta .cta__phone {
+    margin-top: 26.43px;
+    display: flex;
+    justify-content: center;
+  }
+  .second_page .cta .cta__phone .xs1920 {
+    display: none;
+  }
+  .second_page .cta .cta__phone .xs1366 {
+    display: none;
+  }
+  .second_page .cta .cta__phone .xs1170 {
+    display: none;
+  }
+  .second_page .cta .cta__phone .xsmobile {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=style.css.map */
